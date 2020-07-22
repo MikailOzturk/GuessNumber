@@ -1,0 +1,75 @@
+body {
+    font-family: Helvetica;
+    background-color: skyblue;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+  }
+  
+  #game {
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  button {
+    outline: none;
+    border: none;
+    
+    font-size: 14px;
+    font-weight: 900;
+    color: green;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    
+    border-radius: 10px;
+  }
+  
+ 
+  
+  
+  
+  [type='number'] {
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 5px #efa424;
+    margin-right: 5px;
+  }
+  
+  [type='number']:focus {
+    border: 2px solid #fcad26;
+  }
+  
+  p.message {
+    margin-top: 25px;
+  }
+
+
+#inputContainer {
+	color: grey;
+	text-align: center;
+	margin: 30px auto;
+}
+
+input {
+	height:80px;
+    width:230px;
+    font-size:18pt;
+    padding: 40px 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+	text-align: center;
+	border:none;
+
+}
+  
